@@ -1,0 +1,75 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Copperore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperore"
+    },
+    {
+      "name": "CheatpickaxeKoghdaNazhataPKMPoBloku",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheatpickaxe_koghda_nazhata_pkm_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheatpickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheatpickaxe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.server_ore.cheatpickaxe": "FFFFF",
+      "block.server_ore.copperore": "Copper ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "server_ore",
+    "modName": "Server ore",
+    "version": "1.0.0",
+    "author": "Artem, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.serverore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

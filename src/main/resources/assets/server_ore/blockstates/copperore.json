@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "server_ore:block/copperore"
+    }
+  }
+}
